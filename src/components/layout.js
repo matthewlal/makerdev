@@ -3,6 +3,7 @@ import PropTypes from "prop-types";
 import { Link } from "gatsby";
 import { StaticQuery, graphql } from "gatsby";
 import { HelmetDatoCms } from "gatsby-source-datocms";
+import Logo from "./logo";
 
 import "../styles/index.sass";
 
@@ -50,7 +51,7 @@ const TemplateWrapper = ({ children }) => {
           <div className="container__sidebar">
             <div className="sidebar">
               <h6 className="sidebar__title">
-                <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+                <Logo />
               </h6>
               <div
                 className="sidebar__intro"
@@ -65,6 +66,12 @@ const TemplateWrapper = ({ children }) => {
                 </li>
                 <li>
                   <Link to="/about">About</Link>
+                </li>
+                <li>
+                  <Link to="/events">Events</Link>
+                </li>
+                <li>
+                  <Link to="/blogs">Blogs</Link>
                 </li>
               </ul>
               <p className="sidebar__social">
@@ -97,7 +104,7 @@ const TemplateWrapper = ({ children }) => {
                   />
                 </div>
                 <div className="mobile-header__logo">
-                  <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+                  <Logo />
                 </div>
               </div>
             </div>
