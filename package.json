@@ -11,7 +11,7 @@
     "gatsby-plugin-sass": "^2.1.17",
     "gatsby-plugin-styled-components": "3.1.19",
     "gatsby-source-datocms": "^2.1.18",
-    "gatsby-source-filesystem": "^2.1.29",
+    "gatsby-source-filesystem": "^2.4.0",
     "gatsby-source-meetup": "1.0.0",
     "gatsby-transformer-remark": "^2.6.27",
     "moment": "2.24.0",
