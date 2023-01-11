@@ -13,7 +13,7 @@
     "gatsby-source-datocms": "^2.1.18",
     "gatsby-source-filesystem": "^2.1.29",
     "gatsby-source-meetup": "1.0.0",
-    "gatsby-transformer-remark": "^2.6.27",
+    "gatsby-transformer-remark": "^5.25.1",
     "moment": "2.24.0",
     "node-sass": "^4.11.0",
     "react": "^16.10.2",
